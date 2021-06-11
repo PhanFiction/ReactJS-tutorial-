@@ -1,0 +1,64 @@
+.body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bank-card-center {
+  margin: auto;
+  margin-top: 7.5%;
+  margin-left: 15%;
+}
+
+.bank-card {
+  width: 800px;
+  height: 500px;
+  border-radius: 2.5em;
+  background-color: rgb(16, 71, 190);
+}
+
+.bank-card-number-container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bolder;
+  font-size: 4.5em;
+}
+
+.bank-name {
+  margin-top: 5%;
+  margin-right: 5%;
+  font-family: monospace;
+}
+
+.bank-card-number {
+  color: white;
+  font-size: 4em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+.cvv {
+  font-size: 0.3em;
+}
+
+.valid-date {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+  font-size: 1.5em;
+}
+
+.card-holder {
+  color: white;
+  font-size: 3.5em;
+  position: relative;
+  left: 5%;
+}

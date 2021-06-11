@@ -1,0 +1,54 @@
+.person {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+body {
+  margin: 0;
+}
+
+.envelope-wrapper {
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.envelope {
+  width: 800px;
+  height: 500px;
+  border-style: solid;
+  margin-top: 10%;
+}
+
+.sender {
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.receiver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+
+.stamp-container {
+  border-style: solid;
+  width: 95px;
+  height: 75px;
+  border-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 5%;
+}
+
+.stamp {
+  font-size: 1.5em;
+  transform: rotate(-45deg);
+}
