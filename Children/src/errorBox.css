@@ -1,0 +1,19 @@
+.errorBox {
+  background-color: rgb(224, 195, 195);
+  width: 800px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+i {
+  font-size: 5.5em;
+  color: rgb(216, 95, 95);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.children {
+  font-size: 2.5em;
+}
